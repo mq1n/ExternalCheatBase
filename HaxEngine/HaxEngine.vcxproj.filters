@@ -1,0 +1,249 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Project Files">
+      <UniqueIdentifier>{ed4a49b1-b22f-4aa7-a733-bf18888ed84a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\API">
+      <UniqueIdentifier>{418ede65-f35b-4c54-9151-07a593d98d68}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\API\Header">
+      <UniqueIdentifier>{3e009c3b-2ddf-47ea-a0b1-fac9c5392077}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Utils">
+      <UniqueIdentifier>{a8050ac2-9fde-49fb-af06-60be05262195}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Utils\Header">
+      <UniqueIdentifier>{8c9f0e76-da13-4ef8-98ed-f4f37c35ec07}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Utils\Hash">
+      <UniqueIdentifier>{e56bcdb2-e65c-4907-9d39-2dc05d7167ad}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Utils\Log">
+      <UniqueIdentifier>{b65fa997-a6a7-4e60-94b8-a29d1ae85018}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Utils\Security">
+      <UniqueIdentifier>{c90e65ff-08cc-4543-bbd0-fad5d4111a9f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Routine">
+      <UniqueIdentifier>{31e89c11-330a-4b82-96ee-3761108a385e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Routine\Header">
+      <UniqueIdentifier>{5cf6f282-2e80-4403-b535-e3f9f0800bb1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process Watcher">
+      <UniqueIdentifier>{a279e425-930c-4110-aed0-660ad2fab590}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process">
+      <UniqueIdentifier>{e45eaa77-d98e-45dd-b429-9d702921713d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process\Header">
+      <UniqueIdentifier>{fbf92bb4-aef3-4ccf-8062-848ba42e62f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process\Fast">
+      <UniqueIdentifier>{1bac800e-6b8e-4211-9431-375307ea8cc5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process\Helper">
+      <UniqueIdentifier>{24bc8d05-1734-4eaa-8e5a-4e068c970972}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process\Memory">
+      <UniqueIdentifier>{4a7ee915-d7e4-4b59-be21-d1df75623166}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process\Safe">
+      <UniqueIdentifier>{2cefde6b-b026-47f0-aaf9-a47050cee8fc}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process\Overlay">
+      <UniqueIdentifier>{b066c132-bdb4-4263-92c7-db960f42dc58}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Process\Overlay\Header">
+      <UniqueIdentifier>{7bde39d3-5304-48f9-8f0b-353d72dc7968}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Project Files\Common">
+      <UniqueIdentifier>{8b7df797-86c9-4e15-9b7d-e30f00d59689}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="DynamicWinAPI.cpp">
+      <Filter>Project Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="spdlog_wrapper.cpp">
+      <Filter>Project Files\Utils\Log</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiBadException.cpp">
+      <Filter>Project Files\Utils\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiDebug.cpp">
+      <Filter>Project Files\Utils\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiEmulation.cpp">
+      <Filter>Project Files\Utils\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="AntiVirtual.cpp">
+      <Filter>Project Files\Utils\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="DACLRules.cpp">
+      <Filter>Project Files\Utils\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="EnumHandles.cpp">
+      <Filter>Project Files\Utils\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="SelfSecurity.cpp">
+      <Filter>Project Files\Utils\Security</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessName.cpp">
+      <Filter>Project Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="MiniDump.cpp">
+      <Filter>Project Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Functions.cpp">
+      <Filter>Project Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="Elevation.cpp">
+      <Filter>Project Files\Utils</Filter>
+    </ClCompile>
+    <ClCompile Include="HaxEngine.cpp">
+      <Filter>Project Files\Routine</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessWatcher_WMI.cpp">
+      <Filter>Project Files\Process Watcher</Filter>
+    </ClCompile>
+    <ClCompile Include="FastMemoryHelper.cpp">
+      <Filter>Project Files\Process\Fast</Filter>
+    </ClCompile>
+    <ClCompile Include="MemoryHelper.cpp">
+      <Filter>Project Files\Process\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="ModuleHelper.cpp">
+      <Filter>Project Files\Process\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="ProcessHelper.cpp">
+      <Filter>Project Files\Process\Helper</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternScan.cpp">
+      <Filter>Project Files\Process\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="PatternTemplate.cpp">
+      <Filter>Project Files\Process\Memory</Filter>
+    </ClCompile>
+    <ClCompile Include="HijackProcessHandle.cpp">
+      <Filter>Project Files\Process\Safe</Filter>
+    </ClCompile>
+    <ClCompile Include="SafeProcessHandle.cpp">
+      <Filter>Project Files\Process\Safe</Filter>
+    </ClCompile>
+    <ClCompile Include="SafeThreadHandle.cpp">
+      <Filter>Project Files\Process\Safe</Filter>
+    </ClCompile>
+    <ClCompile Include="OverlayManager.cpp">
+      <Filter>Project Files\Process\Overlay</Filter>
+    </ClCompile>
+    <ClCompile Include="HaxApp.cpp">
+      <Filter>Project Files\Routine</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Windows_Structs.h">
+      <Filter>Project Files\API\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="WinAPI_Typedefs.h">
+      <Filter>Project Files\API\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DynamicWinAPI.h">
+      <Filter>Project Files\API\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Antis.h">
+      <Filter>Project Files\Utils\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="DACLRules.h">
+      <Filter>Project Files\Utils\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Elevation.h">
+      <Filter>Project Files\Utils\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Functions.h">
+      <Filter>Project Files\Utils\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MiniDump.h">
+      <Filter>Project Files\Utils\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessName.h">
+      <Filter>Project Files\Utils\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Timer.h">
+      <Filter>Project Files\Utils\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="TrimStr.h">
+      <Filter>Project Files\Utils\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="VersionHelpers.h">
+      <Filter>Project Files\Utils\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Md5.h">
+      <Filter>Project Files\Utils\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="XOR.h">
+      <Filter>Project Files\Utils\Hash</Filter>
+    </ClInclude>
+    <ClInclude Include="BasicLog.h">
+      <Filter>Project Files\Utils\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="spdlog_wrapper.h">
+      <Filter>Project Files\Utils\Log</Filter>
+    </ClInclude>
+    <ClInclude Include="HaxEngine.h">
+      <Filter>Project Files\Routine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="main.h">
+      <Filter>Project Files\Routine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="FastMemoryHelper.h">
+      <Filter>Project Files\Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="HijackProcessHandle.h">
+      <Filter>Project Files\Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="MemoryHelper.h">
+      <Filter>Project Files\Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ModuleHelper.h">
+      <Filter>Project Files\Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternScan.h">
+      <Filter>Project Files\Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="PatternTemplate.h">
+      <Filter>Project Files\Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="ProcessHelper.h">
+      <Filter>Project Files\Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="SafeHandle.h">
+      <Filter>Project Files\Process\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlayManager.h">
+      <Filter>Project Files\Process\Overlay\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="OverlayColorCodes.h">
+      <Filter>Project Files\Process\Overlay\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="WMI.h">
+      <Filter>Project Files\Process Watcher</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector2.h">
+      <Filter>Project Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector3.h">
+      <Filter>Project Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="Vector4.h">
+      <Filter>Project Files\Common</Filter>
+    </ClInclude>
+    <ClInclude Include="HaxApp.h">
+      <Filter>Project Files\Routine\Header</Filter>
+    </ClInclude>
+    <ClInclude Include="Defines.h">
+      <Filter>Project Files\Routine\Header</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>
